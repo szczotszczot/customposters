@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+html, body {
+    height: 100vh;
+    width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table {
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input[type="file"] {
+    display: none;
 }
 
-.App-link {
-  color: #61dafb;
+.menu-logo-text {
+    font-family: 'DM Serif Display', serif;
+    font-size: 32pt;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu-border-bottom {
+    border-bottom: 1px solid black;
 }
+
+.menu-button-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+
+.link p {
+    text-decoration: none;
+    text-underline: none;
+    color: black;
+}
+
+.link p:active {
+    text-decoration: underline;
+    text-underline: black;
+}
+
+.link {
+    text-decoration: none;
+    text-underline: none;
+    color: black;
+}
+
+.link:active {
+    text-decoration: underline;
+    text-underline: black;
+}
+
+.menu-button-black {
+    background: black;
+    color: white;
+}
+
+.main-img {
+    width: 100%;
+    height: 500px;
+}
+
+.article-img {
+    height: 300px;
+    width: auto;
+    mix-blend-mode: multiply;
+}
+
+.article-header {
+    font-family: 'DM Serif Display', serif;
+}
+
+.article-text {
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer-img {
+    width: 60px;
+    height: 60px;
+}
+
+.footer-header {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.footer-subtext {
+    line-height: 0;
+}
+
+.subtext {
+    line-height: 0.8;
+    font-weight: 450;
+}
+
+.file-upload {
+
+    border: 1px solid black;
+    min-height: 300px;
+}
+
+.file-upload:hover {
+    cursor: pointer;
+}
+
+form>div>label>input {
+    height: 25px;
+    width: 225px;
+    margin-left: 10px;
+}
+
+form>div>label>input[type="checkbox"] {
+    height: auto;
+    width: 25px;
+}
+
