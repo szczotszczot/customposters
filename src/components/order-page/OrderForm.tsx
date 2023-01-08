@@ -52,7 +52,7 @@ const OrderForm = () => {
                         Chcę otrzymywać newsletter
                     </label>
                     <div>
-
+                        xd
                     </div>
                     <div>
 
