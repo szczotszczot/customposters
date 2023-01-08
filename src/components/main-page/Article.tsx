@@ -14,6 +14,7 @@ const Article = (props: IArticleProps) => {
                 <h3 className={"article-header pb-3"}>{props.header}</h3>
                 <p className={"article-text"}>
                     {props.text}
+                    xd
                 </p>
             </div>
         </div>
